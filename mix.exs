@@ -41,7 +41,7 @@ defmodule GraknElixir.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:db_connection, "~> 1.1.0"},
+      {:db_connection, "~> 2.0"},
       {:multix, github: "taxfix/multix"},
       {:ex2ms, github: "ericmj/ex2ms"},
       {:poolboy, "~> 1.5.1"},
